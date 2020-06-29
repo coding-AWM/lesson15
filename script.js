@@ -14,7 +14,7 @@ class Second extends First{
         super()
     }
     hello () {
-        super.hello()
+        
         console.log('А я наследуемый метод!');
     }
 }
