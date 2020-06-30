@@ -1,20 +1,13 @@
 'use strict'
 
 class First {
-    constructor() {
-
-    }
-    hello () {
+    hello() {
         console.log('Привет я метод родителя!');
     }
 }
 
-class Second extends First{
-    constructor() {
-        super()
-    }
-    hello () {
-        
+class Second extends First {
+    hello() {
         console.log('А я наследуемый метод!');
     }
 }
